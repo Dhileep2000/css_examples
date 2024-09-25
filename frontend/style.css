@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.backcolor {
+    background-color: black;
+    font-weight: 300;
+    display:inline;
+}
+
+h1 {
+    color: green;
+    padding:20% 30% 40% 50%;
+
+    
+}
+body{
+    background-image:url('/eagle.jpg') ;
+    background-repeat: repeat-x;
+}
+
+h2 {
+    color: green;
+}
+
+.color {
+    color:green;
+}
+
+.main-div~.para {
+    color: bisque;
+
+}
+
+.head,.foot{
+    color:brown;
+
+}
+.head{
+    background-color: rgba(27, 31, 29,0.3);
+    color:rgb(77, 153, 111)
+    
+}
+.foot{
+background-color: hsl(200,30,50 );
+}
+.header1{
+    text-shadow: 2px 5px 6px gray ;
+}
+a{
+    text-decoration: none;
+}
+table,thead,td{
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+td,thead{
+    padding:10px;
+}
+thead{
+    font-weight: 500;
+}
+td{
+    text-align:center;
+} 
+ tbody tr:nth-child(odd){
+    background-color: bisque;
+ }
+
+ tbody tr:nth-child(even){
+    background-color:red;
+ }
+ 
+ .fix{
+    position:fixed;
+    top: 20px;
+    left: 40px;
+ }
+ h3{
+    position:sticky;
+    top:10px;
+
+ }
+ .heads{
+    display:flex;
+    flex-direction: row;
+    column-gap: 0rem;
+    justify-content:flex-end;
+    align-items:center;
+ }
+
+.boxes{
+    height:100vh;
+    display:flex;
+
+}
+
+.box1{
+    flex:6;
+    height:100vh;
+    background-color: aqua;
+}
+.box2{
+    flex:2;
+    height:100vh;
+    background-color:brown;
+
+}
+
+
+ 
+
