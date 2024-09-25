@@ -1,0 +1,167 @@
+* {
+    font-family: "Poppins", system-ui;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 20%;
+    justify-content: center;
+    margin-top: 10px;
+
+
+
+}
+
+.image {
+    position: relative;
+    height: 70px;
+    width: 10%;
+    margin-right: 150px;
+}
+
+.header {
+    font-size: 40px;
+}
+
+nav {
+    position: sticky;
+    top: 10px;
+    background-color: rgb(23, 23, 23);
+    height: 10vh;
+
+
+}
+
+ul {
+    margin: 10px;
+    padding-top: 20px;
+    padding-inline: 5% 2%;
+}
+
+li,
+a {
+    color: white;
+    display: inline;
+    text-decoration: none;
+    font-size: large;
+    margin: 20px;
+}
+
+button {
+    float: right;
+    width: 150px;
+    height: 35px;
+}
+
+h2 {
+    text-align: center;
+    margin: 60px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    background-color: rgb(222, 225, 225);
+    border-radius: 10%;
+    text-align: center;
+    height: 300px;
+    width: 250px
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.image1 {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.name1 {
+    margin: 20px;
+}
+
+.image2 {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.name2 {
+    margin: 20px;
+}
+
+.image3 {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.name3 {
+    margin: 20px;
+}
+
+.image4 {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.name4 {
+    margin: 20px;
+}
+
+.image5 {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.name5 {
+    margin: 20px;
+}
+
+.image6 {
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.name6 {
+    margin: 20px;
+}
+
+p {
+    margin: 30px;
+}
+
+
+@media screen and (max-width:1080px) {
+    .cards {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px;
+        justify-content: center;
+        margin: 50px;
+    }
+}
